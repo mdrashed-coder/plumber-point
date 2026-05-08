@@ -9,9 +9,13 @@ body{
     background-image: url();
 
 }
+img{
+    max-width: 100%;
+}
 .continer{
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 20px;
 
 }
 .nav-bar{
@@ -127,8 +131,49 @@ body{
 }
 
 
+
+
+/* Header section design */
 .text h2{
     font-size: 44px;
 }
+.text{
+    text-align: center;
+}
+.text button{
+    display: inline-block;
+    padding: 10px;
+    font-size: medium;
+    font-weight: bold;
+    
+
+}
 
 
+header.img{
+    max-width: 50%;
+    display: flex;
+    
+}
+
+@media (max-width:880px) {
+    header .wraper-section{
+        flex-direction: column;
+        gap: 2rem;
+        padding: 40px 0;
+    }  
+        
+}
+@media (max-width:880px) {
+    header .wraper-section{
+        flex-direction: column;
+        gap: 2rem;
+    }   
+
+}
+
+header .wraper-section {
+    background: green;
+
+    
+}
