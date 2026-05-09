@@ -134,46 +134,120 @@ img{
 
 
 /* Header section design */
-.text h2{
+header .text{
+    width: 50%;
+}
+header .img{
+    display: flex;
+}
+ .text h1{
     font-size: 44px;
+    list-style: 70px;
+    padding-bottom: 20px;
 }
-.text{
-    text-align: center;
+.text h1 span {
+    font-weight: 500;
+    
 }
-.text button{
+.text h2{
+    font-size: 34px;
+    font-weight: 600;
+}
+.btn {
     display: inline-block;
     padding: 10px;
-    font-size: medium;
-    font-weight: bold;
-    
-
-}
-
-
-header.img{
-    max-width: 50%;
-    display: flex;
+    font-size: 18px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 15px;
+    background: #DD3142;
+    transition: 1s;   
     
 }
+.btn:hover {
+    background: #701c25;
+    color: white;
+
+}
+.wraper-section img{
+        width: 50%;
+    }
 
 @media (max-width:880px) {
     header .wraper-section{
         flex-direction: column;
-        gap: 2rem;
         padding: 40px 0;
+        gap: 50px;
     }  
+     header .wraper-section .text{
+        width: 100%;
+        margin: 0 auto;
+    }   
         
 }
-@media (max-width:880px) {
-    header .wraper-section{
-        flex-direction: column;
-        gap: 2rem;
-    }   
-
+@media (max-width:600px) {
+    header .wraper-section .img{
+        width: 100%;
+        background: tomato;
+    }
+    .wraper-section img{
+        width: 50%;
+    } 
 }
 
-header .wraper-section {
-    background: green;
+/* Services section  */
+.services{
+    background: tomato;
+    padding: 40px 30px;
+
+}
+.wraper-section{
+    display: flex;
+    
+    
+}
+.services .srv{
+    color: white;
+    justify-content: space-evenly;
+}
+.services .wraper-section .line{
+    width: 3px;
+    height: 200px;
+    background: black;
+    border: none;
+    
+
+}
+.box{
+    padding: 20px;
+    text-align: center;
 
     
 }
+.box h4{
+    font-size: medium;
+    padding: 10px 0;
+}
+.box p {
+    font-size: 14px;
+}
+.services .box img{
+    width: 50px;
+}
+.services .btn{
+    color: white;
+}
+@media (max-width:600px) {
+    .services .wraper-section{
+        flex-direction: column;
+        gap: 20px;
+        
+    }    
+    .services .wraper-section .line{
+        display: none;
+
+    }    
+    
+}
+
+
