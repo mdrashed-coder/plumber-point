@@ -182,6 +182,7 @@ header .img{
      header .wraper-section .text{
         width: 100%;
         margin: 0 auto;
+        text-align: center;
     }   
         
 }
@@ -347,6 +348,30 @@ header .img{
 .point .continer{
     text-align: center;
 
+}
+.point .top-text{
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 10px;
+    padding-bottom: 30px;
+    
+}
+.point .top-text h2{
+    padding-bottom: 20px;
+    
+}
+.point .wraper-section {
+    
+}
+.point .wraper-section .flex{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+}
+.point .wraper-section .flex img{
+    width: 20px;
 }
 
 
