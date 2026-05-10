@@ -249,5 +249,106 @@ header .img{
     }    
     
 }
+.welcome{
+    padding: 100px;
+}
+.welcome .continer{
+    background-image: url('https://images.pexels.com/photos/29399452/pexels-photo-29399452.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(2px);
+    padding: 40px ;
+    padding-left: none;
+}
+
+.welcome .text{
+
+    width: 50%;
+    background: rgba(255, 255, 255, 0.351);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+
+
+}
+.welcome .btn{
+    color: white;
+    display: block;
+    width: 150px;
+
+
+}
+@media (max-width:880px) {
+    .welcome .text{
+        width: 100%;
+        margin: 0 auto;
+    }  
+}
+@media (max-width:600px) {
+    .welcome .continer{
+        padding: 30px;
+    }  
+    .welcome{
+        padding: 20px;
+    }
+}
+.company{
+    padding: 50px;
+    background: #FF6347;
+}
+.company .wraper-section{
+    gap: 100px;
+    align-items: center;
+
+}
+.company .image{
+    background-image: url('https://images.pexels.com/photos/7653780/pexels-photo-7653780.jpeg');
+    width: 50%;
+    height: 320px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.company .text{
+    width: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+
+}
+.company .text h2{
+    padding-bottom: 20px;
+}
+@media (max-width: 600px) {
+    .company{
+        padding: 40px 10px;
+    }
+    .company .wraper-section{
+        flex-direction: column;        
+    }
+    .company .text, .company .image{
+        width: 100%;
+    }
+    
+}
+
+
+
+.point{
+    padding: 50px 20px;
+}
+
+.point .continer{
+    text-align: center;
+
+}
+
+
 
 
