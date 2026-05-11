@@ -342,7 +342,7 @@ header .img{
 
 
 .point{
-    padding: 50px 20px;
+    padding: 50px 0px;
 }
 
 .point .continer{
@@ -353,14 +353,11 @@ header .img{
     max-width: 768px;
     margin: 0 auto;
     padding: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     
 }
 .point .top-text h2{
     padding-bottom: 20px;
-    
-}
-.point .wraper-section {
     
 }
 .point .wraper-section .flex{
@@ -373,6 +370,18 @@ header .img{
 .point .wraper-section .flex img{
     width: 20px;
 }
+
+.our-team .top-text{
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.our-team .top-text h2{
+    padding-bottom: 20px;
+}
+
 
 
 
