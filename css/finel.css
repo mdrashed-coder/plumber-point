@@ -370,7 +370,9 @@ header .img{
 .point .wraper-section .flex img{
     width: 20px;
 }
-
+.our-team {
+    padding: 40px 0;
+}
 .our-team .top-text{
     max-width: 768px;
     margin: 0 auto;
@@ -383,6 +385,142 @@ header .img{
 }
 
 
+.our-team .wraper-section{
+    gap: 10px;
+}
+.our-team .wraper-section .member img{
+    width: 100%;
+}
+.our-team .wraper-section .member{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    position: relative;   
 
+}
+.our-team .wraper-section .text{
+    background: #DD3142;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+}
+@media (max-width:600px) {
+    .our-team .wraper-section{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .our-team .wraper-section .member{
+        width: 100%;
+    }
+}
+.tesmonial{
+    background-image: url('https://images.pexels.com/photos/35203648/pexels-photo-35203648.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;     
+    
+}
+.overlay{
+    padding: 40px 0;
+    background: rgba(0, 0, 0, 0.616);
+    width: 100%;
+    height: 100%;
+}
+.overlay h2{
+    color: #EEFF06;
+}
+
+.tesmonial .top-text{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white; 
+    gap: 10px;    
+}
+.blog-sec{
+    padding: 50px 0;
+}
+.blog-sec h2{
+    font-size: 30px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    
+}
+
+.blog img{
+    width: 100%;
+
+}
+.blog-sec .wraper-section{
+    gap: 40px   ;
+}
+.blog-sec .blog h3{
+    font-size: 18px;
+    padding-bottom: 10px;
+
+}
+.blog-sec .blog span{
+    font-size: 14px;
+
+}
+@media (max-width:600px) {
+    .blog-sec .wraper-section{
+    flex-direction: column;
+}
+.blog{
+    width: 100%;
+}
+    
+}
+footer{
+    background: black;
+    padding: 50px 0;
+    color: white;
+}
+footer .part img{
+    width: 150px;
+
+}
+footer .part{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    min-width: 300px;
+}
+.part span{
+    color: rgb(255, 42, 42);
+    font-weight: 700;
+    font-size: 25px;
+    
+}
+.part ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+
+}
+footer .wraper-section{
+    align-items: flex-start;
+
+}
+.wrap{
+    display: flex;
+    gap: 20px;
+}
+.wrap span{
+    font-size: 18px;
+    padding-bottom: 15px;
+    display: block;
+}
 
 
